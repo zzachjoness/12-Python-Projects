@@ -34,3 +34,7 @@ One = Madlibs("verb", "paragraph")
 print(One.inputs)
 print(One.madlib)
 One.showInputs("a")
+
+intstring = 6 + '6'
+print(intstring)
+
