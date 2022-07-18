@@ -208,6 +208,39 @@ print("my first emptied list: ", mylist3)
 
 ########################################################################################
 
+# 7.0 Python Sets
+
+# Sets are used to store multiple items in a single variable
+# Set is 1/4 built-in data ytpes in Python used to store collections of data
+# The others are List, Tuple, & Dictionary, all with different qualites and usage
+# A set is a collection which is unordered, unchangeable, and unindexed
+# Note -- sets are unchangeable, but you can remove and add items.
+
+# Speed note - Lists are slighty faster than sets when you want to iterate over the values
+# Speed note - sets are significanty faster than lists if you want to check if an itme is contained within it
+# cont'd... as sets can only contain unique items
+# Speed note - tubes perform in almost exactly the same way as lists, except for their immutability.
+
+
+# Example
+
+thisset = {"apple", "banana", "razzzberry"}
+print(f"this is my set: {thisset}")
+
+# get the length of a set
+
+print(f"this is the lenght of our set: {len(thisset)}")
+
+# sets can contain mixed data types
+
+set1 = {9,True, False, "haha", 1132, "blue"}
+
+# you can use the set constructor to create a set
+
+set2 = set(("blue", "pink", "green", "purprle"))
+
+
+########################################################################################
 
 dict_one = [
   {"brand": "ford", 
