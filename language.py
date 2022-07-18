@@ -229,7 +229,7 @@ print(f"this is my set: {thisset}")
 
 # get the length of a set
 
-print(f"this is the lenght of our set: {len(thisset)}")
+print(f"this is the length of our set: {len(thisset)}")
 
 # sets can contain mixed data types
 
@@ -239,6 +239,39 @@ set1 = {9,True, False, "haha", 1132, "blue"}
 
 set2 = set(("blue", "pink", "green", "purprle"))
 
+# Access set items
+for i in set1:
+  print(i)
+
+# Check if item is in set2
+print("blue" in set1)
+
+# add item to set2
+set2.add("orange")
+
+# add items from one set to another set
+
+set1.update(set2)
+print(f"new set: {set1}")
+
+# add any iterable
+# The object in the update() tmethod does not have to be a set, it can be any iterable object (tubes,list)..
+# cont'd... dictionaries, etc.)
+
+new_list = [0,1,5,2,3,4]
+set1.update(new_list)
+print(f"newnewset: {set1}"
+)
+
+set3 = set((1,2,3,4))
+set4 = set((True, False))
+set3.update(set4)
+print(f"set3.update(set4): {set3}")
+set5 = set((1,2,3,4))
+set6 = set((True, False))
+set6.update(set5)
+print(f"set6.update(set5): {set6}")
+print(f"1 in set6?: {1 in set6}")
 
 ########################################################################################
 
