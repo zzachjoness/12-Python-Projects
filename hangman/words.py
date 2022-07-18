@@ -1,5 +1,4 @@
 # https://www.randomlists.com/data/words.json
-words = [
     "aback",
     "abaft",
     "abandoned",
@@ -41,7 +40,6 @@ words = [
     "activity",
     "actor",
     "actually",
-    "ad hoc",
     "adamant",
     "adaptable",
     "add",
@@ -1292,7 +1290,6 @@ words = [
     "mend",
     "merciful",
     "mere",
-    "mess up",
     "messy",
     "metal",
     "mice",
