@@ -169,7 +169,16 @@ print("set4: ", set4)
 
 ########################################################################################
 
-# 6.0 Python Lists
+# 6.0 Python Collections (Arrays)
+  # List - a collection which is ordred and changeable. Allows duplicate members
+  # Tuple - a colleciton which is ordered and unchangeable. Allows duplicate members
+  # Set - a collection which is unordered, unchangeable*, and unindexed. No duplicate members
+  # Dictionary - a collection which is ordred ** and changeable. No duplicated members
+
+  # * set items are unchangeable, but you can remove items and add new items
+  # ** As of Python 3.7, dictionaries are ordred (whereas earlier they were not)
+
+# 6.1 Python Lists
 
 #list
 #used to store multiple items in a single variable
@@ -208,7 +217,7 @@ print("my first emptied list: ", mylist3)
 
 ########################################################################################
 
-# 7.0 Python Sets
+# 6.2 Python Sets
 
 # Sets are used to store multiple items in a single variable
 # Set is 1/4 built-in data ytpes in Python used to store collections of data
@@ -271,7 +280,7 @@ set5 = set((1,2,3,4))
 set6 = set((True, False))
 set6.update(set5)
 print(f"set6.update(set5): {set6}")
-print(f"1 in set6?: {1 in set6}")
+print(f"1 in set6?: {1 in set6})")
 
 ########################################################################################
 
